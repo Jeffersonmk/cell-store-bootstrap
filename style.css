@@ -1,14 +1,38 @@
-h1 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-    color: grey;
+.navbar {
+    background-color: #47484d;
 }
 
-#text-title {
-    color: green;
+.nav .nav-link.active {
+    background-color: #f9bc3f;
+    color: #fef6e7;
 }
 
-.nav-item {
-    list-style: none;
+.nav .nav-link, 
+.navbar-brand {
+    color: #fef6e7;
+}
+
+.navbar-brand {
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.navbar-brand:hover {
+    color: #fef6e7;
+}
+
+.navbar-brand span {
+    color: #f9bc3f;
+}
+
+.nav .nav-link.active,
+.nav-link {
+font-family: "Inter", sans-serif;
+font-weight: bold;
+}
+
+.navbar-toggler {
+    background-color: #a9acb8;
 }
