@@ -1,3 +1,7 @@
+body {
+    background-color: #000000;
+}
+
 .navbar {
     background-color: #47484d;
 }
@@ -8,7 +12,8 @@
 }
 
 .nav .nav-link, 
-.navbar-brand {
+.navbar-brand,
+h2 {
     color: #fef6e7;
 }
 
@@ -36,3 +41,24 @@ font-weight: bold;
 .navbar-toggler {
     background-color: #a9acb8;
 }
+
+span {
+    color: #f9bc3f;
+}
+
+h2 {
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 30;
+}
+
+.card-title {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.card-text {
+    font-weight: bold;
+    color: #ffffff;
+}
+
