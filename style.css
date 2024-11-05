@@ -62,3 +62,62 @@ h2 {
     color: #ffffff;
 }
 
+/* Estilização do card */
+
+.custom-card {
+    background-color: #000; /* Fundo preto do card */
+    color: #fff; /* Cor do texto do card */
+    border: none; /* Remove a borda padrão do card */
+    text-align: center;  /* Centraliza o conteúdo */
+}
+
+.card-image {
+    background-image: linear-gradient(#000000, #000000, #000066, #0033cc);
+}
+
+.card-body {
+    text-align: left;
+    padding-left: 10px; /* Espaçamento interno do card-body */
+}
+
+/* Centraliza o botão */
+.btn-custom {
+    display: block; /* Faz o botão ocupar uma linha inteira */
+    margin: 0 auto; /* Centraliza o botão horizontalmente */
+    border-width: 3px;
+}
+
+.btn:hover {
+    border-color: #ffaa00;
+    color: #ffaa00;
+}
+
+.btn {
+    font-weight: bold;
+    border-color: #FABC3F;
+}
+
+/* Estilo do título e texto */
+.card-title {
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.card-text {
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+.card-body button {
+    color: #FABC3F;
+}
+
+.card-subtitle {
+    font-weight: bold;
+    color: #FABC3F;
+    text-align: center;
+}
