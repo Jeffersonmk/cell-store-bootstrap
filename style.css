@@ -81,20 +81,41 @@ h2 {
 }
 
 /* Centraliza o botão */
+
+.btn-release, 
 .btn-custom {
     display: block; /* Faz o botão ocupar uma linha inteira */
     margin: 0 auto; /* Centraliza o botão horizontalmente */
     border-width: 3px;
 }
 
-.btn:hover {
+.btn-release {
+    color: white;
+    border-color: white;
+    height: 60px;
+    width: 300px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.btn-custom {
+    border-color: #FABC3F;
+}
+
+.btn-custom:hover {
     border-color: #ffaa00;
-    color: #ffaa00;
+    color: black;
+    background-color: #ffaa00;
+}
+
+.btn-release:hover {
+    color: #010153;
+    border-color: white;
+    background-color: white;
 }
 
 .btn {
-    font-weight: bold;
-    border-color: #FABC3F;
+    font-weight: bolder;
 }
 
 /* Estilo do título e texto */
@@ -120,4 +141,35 @@ h2 {
     font-weight: bold;
     color: #FABC3F;
     text-align: center;
+}
+
+.card-lancamento {
+    width: 568px;
+    height: 300px;
+    background-image: linear-gradient(#0d48fa,#0202b6,#02027e, #010153);
+    border-radius: 20px;
+}
+
+#cell-release {
+    width: 300px;
+    height: auto;
+    position: relative;
+    left: -100px; 
+}
+
+.top-preco {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 4px solid #FABC3F;
+    margin-right: -4px; /* Move a linha para dentro */
+}
+
+.top-preco:hover {
+    background-color: grey;
+    color: white;
 }
