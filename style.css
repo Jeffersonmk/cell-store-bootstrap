@@ -50,6 +50,7 @@ h2 {
     font-family: "Inter", serif;
     font-weight: 600;
     font-size: 30;
+    color: white;
 }
 
 .card-title {
@@ -172,4 +173,57 @@ h2 {
 .top-preco:hover {
     background-color: grey;
     color: white;
+}
+
+.form-label {
+    color: white;
+    padding-top: 5px;
+}
+
+.btn-success {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    color: white;
+    text-align: justify;
+}
+
+#footer-menu {
+    background-color: #040404;
+    padding: 20px 0; /* Adiciona espaçamento vertical no footer */
+}
+
+#footer-menu {
+    padding-left: 15px; /* Ajuste o padding horizontal se necessário */
+    padding-right: 15px;
+}
+
+.section-title {
+    color: #FABC3F;
+    font-family: "Jomhuria", serif;
+    font-size: 50px;
+    white-space: nowrap;
+}
+
+#footer-menu .menu-footer a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#number-contact {
+    font-size: 25px;
+}
+
+.horario-de-funcionamento a {
+    white-space: nowrap;
+}
+
+.px-extra {
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
