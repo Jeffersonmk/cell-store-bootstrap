@@ -180,9 +180,16 @@ h2 {
     padding-top: 5px;
 }
 
-.btn-success {
+.btn-submit {
+    border-color: #FABC3F;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: #f9bc3f;
+}
+
+.btn-submit:hover {
+    background-color: #f9bc3f;
+    color: black;
 }
 
 .about p {
@@ -198,6 +205,7 @@ h2 {
 #footer-menu {
     padding-left: 15px; /* Ajuste o padding horizontal se necessário */
     padding-right: 15px;
+    border-radius: 10px;
 }
 
 .section-title {
@@ -220,10 +228,33 @@ h2 {
 }
 
 .horario-de-funcionamento a {
-    white-space: nowrap;
+    white-space: nowrap; /* Impede que o texto quebre para uma nova linha */
 }
 
 .px-extra {
     padding-left: 6rem;
     padding-right: 6rem;
+}
+
+.social-links {
+    display: inline-block;
+    color: white;
+}
+
+#real-footer img {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+
+.me-custom {
+    margin-left: -28px;
+}
+
+.social-links img {
+    margin-left: 8px;
+}
+
+.footer-text {
+    color: white;
 }
