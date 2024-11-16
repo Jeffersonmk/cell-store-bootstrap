@@ -120,6 +120,7 @@ h2 {
 }
 
 /* Estilo do título e texto */
+
 .card-title {
     color: #ffffff;
     font-size: 1.5rem;
@@ -257,4 +258,15 @@ h2 {
 
 .footer-text {
     color: white;
+}
+
+#mais-procurados,
+#contato,
+#lancamentos,
+#sobre {
+    scroll-margin-top: 80px;
+}
+
+section {
+    padding-bottom: 50px; /* Aumenta o espaço entre as seções */
 }

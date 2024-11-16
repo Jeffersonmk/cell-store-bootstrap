@@ -12,51 +12,49 @@
     <title>MEGACELULARES</title>
 </head>
 <body data-bs-spy="scroll" data-bs-target="#menu-navegacao" data-bs-offset="100">
+    <header class="navbar navbar-expand-lg sticky-top py-0">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="navbar-brand m-0"><span>MEGA</span>CELULARES</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-lg-flex">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inicio">
+                            <i class="bi bi-house-add-fill me-2"></i>
+                            Inicio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mais-procurados">
+                            <i class="bi bi-search-heart me-2"></i>
+                            Mais procurados
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lancamentos">
+                            <i class="bi bi-rocket-takeoff me-2"></i>
+                            Lançamentos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">
+                            <i class="bi bi-shop me-2"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">
+                            <i class="bi bi-telephone-plus me-2"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <section id="inicio">
-        <header class="navbar navbar-expand-lg sticky-top py-0">
-            <div class="container d-flex justify-content-between align-items-center">
-                <h1 class="navbar-brand m-0"><span>MEGA</span>CELULARES</h1>
-                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
-                    <ul class="nav nav-pills d-block d-lg-flex">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#inicio">
-                                <i class="bi bi-house-add-fill me-2"></i>
-                                Inicio
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#mais-procurados">
-                                <i class="bi bi-search-heart me-2"></i>
-                                Mais procurados
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#lancamentos">
-                                <i class="bi bi-rocket-takeoff me-2"></i>
-                                Lançamentos
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#melhores-precos">
-                                <i class="bi bi-piggy-bank-fill me-2"></i>
-                                Melhores Preços
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contato">
-                                <i class="bi bi-telephone-plus me-2"></i>
-                                Contato
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-    </section>
-    <section id="carrosel">
         <div class="carousel slide" data-bs-ride="carousel" id="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="3000">
@@ -277,7 +275,7 @@
                     <div class="col">
                         <form>
                             <label class="form-label">Nome</label>
-                            <input class="form-control" name="nome" type="text">
+                            <input class="form-control" name="nome" type="text" id="nome-form">
 
                             <label class="form-label" for="email">Seu e-mail</label>
                             <input class="form-control" id="email" name="email" type="email">
