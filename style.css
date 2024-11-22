@@ -260,13 +260,28 @@ h2 {
     color: white;
 }
 
-#mais-procurados,
-#contato,
-#lancamentos,
-#sobre {
+.custom-margin-scroll {
     scroll-margin-top: 80px;
+}
+
+#sobre {
+    scroll-margin-top: 300px;
 }
 
 section {
     padding-bottom: 50px; /* Aumenta o espaço entre as seções */
+}
+
+#inicio .carousel-inner img {
+    width: 1920px;
+    height: 760px;
+    object-fit: cover;
+}
+
+@media (min-width: 768px), (min-width: 576px) {
+    .release-cell {
+        padding-bottom: 40px;
+        justify-content: center;
+        align-items: center;
+    }
 }
